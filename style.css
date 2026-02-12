@@ -38,3 +38,13 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Bubble sections */
+.bubble {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    padding: 18px 22px;
+    margin: 18px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
