@@ -165,3 +165,28 @@ li {
   color: var(--muted);
   font-size: 14px;
 }
+
+/* Mobile compatibility */
+@media (max-width: 700px) {
+
+  .container {
+    margin: 0;
+    padding: 18px;
+    border-radius: 0;
+  }
+
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile {
+    width: 110px;
+    height: 110px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+}
